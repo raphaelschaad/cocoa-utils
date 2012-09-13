@@ -42,8 +42,6 @@
             [objects addObject: [self objectAtIndex: from]];
          }
          [self replaceObjectsAtIndexes: indexes withObjects: objects];
-         [indexes release];
-         [objects release];
       }
    }
 }
